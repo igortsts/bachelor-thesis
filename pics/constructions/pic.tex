@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{pstricks-add}
+\usepackage[a4paper,top=0pt,bottom=0pt,left=0pt,right=0pt,noheadfoot]{geometry}
+\pagestyle{empty}
+\begin{document}
+\newrgbcolor{zzttqqq}{0.6 0.2 0}
+\newrgbcolor{zzttqq}{1 0.8 0.6}
+\psset{xunit=0.7cm,yunit=0.7cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=1.6pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(-7.02,-8.24)(21.62,8.24)
+	\pspolygon[linewidth=1pt,linecolor=zzttqqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.17](13,0)(14.5,2.598076211353316)(19,0)(17.5,-2.598076211353316)
+	\pspolygon[linewidth=1pt,linecolor=zzttqqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.17](5,0)(11,0)(9.5,-2.598076211353316)(6.5,2.5980762113533165)
+	\pspolygon[linewidth=1pt,linecolor=zzttqqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.17](-3,0)(-1.5,-2.598076211353316)(1.5,-2.598076211353316)(-1.5,2.598076211353316)(1.5,2.598076211353316)(3,0)
+	\psline[linewidth=1pt](-1.5,2.598076211353316)(1.5,2.598076211353316)(3,0)(1.5,-2.598076211353316)(-1.5,-2.598076211353316)(-3,0)
+	\psline[linewidth=1pt](-1.5,2.598076211353316)(-3,0)
+	\psline[linewidth=1pt](5,0)(6.5,2.5980762113533165)(9.5,2.598076211353316)(11,0)(9.5,-2.598076211353316)(6.5,-2.5980762113533156)
+	\psline[linewidth=1pt](13,0)(14.5,2.598076211353316)(17.5,2.598076211353316)(19,0)(17.5,-2.598076211353316)(14.5,-2.598076211353316)
+	\psline[linewidth=1pt](5,0)(6.5,-2.5980762113533156)
+	\psline[linewidth=1pt](13,0)(14.5,-2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](13,0)(14.5,2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](14.5,2.598076211353316)(19,0)
+	% \psline[linewidth=1pt,linecolor=zzttqq](19,0)(17.5,-2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](17.5,-2.598076211353316)(13,0)
+	% \psline[linewidth=1pt,linecolor=zzttqq](5,0)(11,0)
+	% \psline[linewidth=1pt,linecolor=zzttqq](11,0)(9.5,-2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](9.5,-2.598076211353316)(6.5,2.5980762113533165)
+	% \psline[linewidth=1pt,linecolor=zzttqq](6.5,2.5980762113533165)(5,0)
+	% \psline[linewidth=1pt,linecolor=zzttqq](-3,0)(-1.5,-2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](-1.5,-2.598076211353316)(1.5,-2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](1.5,-2.598076211353316)(-1.5,2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](-1.5,2.598076211353316)(1.5,2.598076211353316)
+	% \psline[linewidth=1pt,linecolor=zzttqq](1.5,2.598076211353316)(3,0)
+	% \psline[linewidth=1pt,linecolor=zzttqq](3,0)(-3,0)
+	\psline[linewidth=1pt]{->}(0,0)(1.5,2.598076211353316)
+	\psline[linewidth=1pt]{->}(8,0)(9.5,2.598076211353316)
+	\psline[linewidth=1pt]{->}(16,0)(17.5,2.598076211353316)
+	\rput[tl](0.6,2.2){\Large{$v$}}
+	\rput[tl](8.6,2.2){\Large{$v$}}
+	\rput[tl](16.6,2.2){\Large{$v$}}
+	\rput[tl](-0.6,-3){\Large{$N_M(v)$}}
+	\rput[tl](7.4,-3){\Large{$Q_M(v)$}}
+	\rput[tl](15.4,-3){\Large{$R_M(v)$}}
+	\begin{scriptsize}
+	\psdots[dotstyle=*](0,0)
+	\psdots[dotstyle=*](8,0)
+	\psdots[dotstyle=*](16,0)
+	\end{scriptsize}
+\end{pspicture*}
+\end{document}

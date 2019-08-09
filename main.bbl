@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+
+\bibitem{ballvolumes}
+{\sc {B}all, K.}
+\newblock Volumes of sections of cubes and related problems.
+\newblock {\em Geometric aspects of functional analysis\/} (1989), 251--260.
+
+\bibitem{ball}
+{\sc {B}all, K.}
+\newblock Ellipsoids of maximal volume in convex bodies.
+\newblock {\em Geometriae Dedicata 41}, 2 (1992), 241--250.
+
+\bibitem{barthe}
+{\sc {B}arthe, F.}
+\newblock On a reverse form of the {B}rascamp-{L}ieb inequality.
+\newblock {\em Inventiones mathematicae 134}, 2 (1998), 335--361.
+
+\bibitem{hyperbarthe}
+{\sc {B}arthe, F., and {N}aor {A}}.
+\newblock Hyperplane projections of the unit ball of $\ell_p^n$.
+\newblock {\em Discrete and Computational Geometry\/} (May 2018).
+
+\bibitem{gruber}
+{\sc {G}ruber, P.~M.}
+\newblock {\em Convex and Discrete Geometry}.
+\newblock Springer Berlin Heidelberg, 2007.
+
+\bibitem{zonotop}
+{\sc {I}vanov, G.}
+\newblock Maximization of the volume of zonotopes.
+\newblock {\em ArXiv e-prints\/} (May 2018).
+
+\bibitem{crospol}
+{\sc {I}vanov, G.}
+\newblock Projections of the cross-polytope and related isotropic measures.
+\newblock {\em ArXiv e-prints\/} (Aug 2018).
+
+\bibitem{ellips}
+{\sc {I}vanov, G.}
+\newblock On the volume of the {J}ohn--{L}{\"o}wner ellipsoid.
+\newblock {\em Discrete {\&} Computational Geometry\/} (Feb 2019).
+
+\bibitem{john}
+{\sc {J}ohn, F.}
+\newblock Extremum problems with inequalities as subsidiary conditions.
+\newblock {\em Studies and Essays Presented to R. Courant on his 60th
+  Birthday\/} (Jan 1948).
+
+\bibitem{vaaler}
+{\sc {V}aaler, J.}
+\newblock A geometric inequality with applications to linear forms.
+\newblock {\em Pacific Journal of Mathematics 83}, 2 (1979), 543--553.
+
+\end{thebibliography}

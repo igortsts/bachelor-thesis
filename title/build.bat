@@ -1,0 +1,3 @@
+pdflatex title
+
+"title.pdf"
